@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Quicksand;
+    src: local("Quicksand")
+}
+
+html {
+    background-color: rgb(34, 166, 153);
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .1em; 
+    word-spacing: .1em;
+    color:rgba(242, 76, 61, 0.750);
+    background-color:rgb(242, 190, 34);
+}
+
+nav > ul {
+    padding-left: 100px;
+}
+
+section {
+    background-color: lightgreen;
+    width: 35%;
+    /* Not sure what 1% and 100% does when scaling the window? */
+    background-size: 100% auto;
+    
+}
+
+footer {
+    color:rgb(0, 100, 0);
+    background-color:rgb(242, 151, 39);
+}
