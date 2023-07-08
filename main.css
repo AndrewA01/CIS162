@@ -4,35 +4,81 @@
 }
 
 html {
-    background-color: rgb(34, 166, 153);
+    background-color: rgb(125, 225, 255);
 }
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    width: 90%;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: .1em; 
     word-spacing: .1em;
-    color:rgba(242, 76, 61, 0.750);
+    color:rgb(40, 100, 40);
     background-color:rgb(242, 190, 34);
+    text-align: center;
 }
 
 nav > ul {
-    padding-left: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav > ul > li {
+    float: left;
+}
+  
+nav > ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav > ul >  li a:hover {
+    background-color: black;
 }
 
 section {
     background-color: lightgreen;
-    width: 35%;
+    width: 100%;
     /* Not sure what 1% and 100% does when scaling the window? */
-    background-size: 100% auto;
-    
+    background-size: auto;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 0;  
+}
+
+section#leftColumn {
+    clear: none;
+    float: left;
+    padding: .5em;
+    width: 48.5%;
+}
+
+section#rightColumn {
+    clear: none;
+    float: right;
+    padding: .5em;
+    width: 48.5%;
+}
+
+section#footer {
+    clear: both;
+    float: none;
+    width: auto;
 }
 
 footer {
     color:rgb(0, 100, 0);
-    background-color:rgb(242, 151, 39);
+    background-color:rgb(242, 190, 34);
 }
